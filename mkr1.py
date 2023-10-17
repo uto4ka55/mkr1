@@ -5,6 +5,10 @@ matrix = [
     [1, 3, 17, 5]
 ]
 
+print('Масив:')
+for a in matrix:
+    print(a)
+
 num_rows = len(matrix)
 num_columns = len(matrix[0])
 column_sums = [0] * num_columns
